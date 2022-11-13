@@ -1,4 +1,4 @@
-﻿string[] ar1 = new string[6] {"florida", "15874", "11", "non", "old", "result"};
+﻿string[] ar1 = new string[5] {"florida", "15874", "11", "non", "result"};
 string[] ar2 = new string[ar1.Length];
 void Newarray(string[] ar1, string[] ar2)
 {
