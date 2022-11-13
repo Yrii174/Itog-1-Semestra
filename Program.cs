@@ -1,4 +1,4 @@
-﻿string[] ar1 = new string[7] {"florida", "15874", "98531", "11", "non", "old", "result"};
+﻿string[] ar1 = new string[6] {"florida", "15874", "11", "non", "old", "result"};
 string[] ar2 = new string[ar1.Length];
 void Newarray(string[] ar1, string[] ar2)
 {
@@ -12,7 +12,7 @@ void Newarray(string[] ar1, string[] ar2)
         }
     }
 }
-void PrintArray(string[] array)
+void PrintAr(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
@@ -21,4 +21,4 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 Newarray(ar1, ar2);
-PrintArray(ar2);
+PrintAr(ar2);
